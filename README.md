@@ -25,6 +25,6 @@ import rns
 n=14221 # an decimal number you want to convert to RNS
 P=[21,19,18,11,10,8,7,5,4] #moduli
 encoded = encode(n=n, P=P) # will return [4, 9, 1, 9, 1, 5, 4, 1, 1] which is equal to (n mod P) = [14221 % 21, 14221 % 19, ... 14221 % 4]
-decoded = decode(code=encoded, P=P_ # returns 14221
+decoded = decode(code=encoded, P=P) # returns 14221
 ```
 
