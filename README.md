@@ -21,10 +21,11 @@ https://www.researchgate.net/publication/307174628_An_overview_of_Residue_Number
 # Usage
 
 ```
-import rns
+from rns import encode, decode, get_dynamic_range
 
 n=14221 # an decimal number you want to convert to RNS
 P=[21,19,18,11,10,8,7,5,4] #moduli
+range = get_dynamic_range(P) # returns the upper bound of integers that can be uniquely encoded by moduli P
 encoded = encode(n=n, P=P) # will return [4, 9, 1, 9, 1, 5, 4, 1, 1] which is equal to (n mod P) = [14221 % 21, 14221 % 19, ... 14221 % 4]
 decoded = decode(code=encoded, P=P) # returns 14221
 ```
