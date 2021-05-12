@@ -6,7 +6,7 @@ However there is no a trivial algoritm to convert the RNS representation back to
 The most pipular methods are:
 - Chinese Remainder Theorem
 - Mixed Radix Convertion
-- 
+
 Details can be found : https://www.semanticscholar.org/paper/The-Mixed-Radix-Chinese-Remainder-Theorem-and-Its-Bi-Gross/df77e4473f80fc9f9f7765f10d94df3328e58ccd
 
 This repo suggest an alternative way of making RNS-Decimal convertion that works efficently for any given 'moduli' without any requirements to be co-prime.
