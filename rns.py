@@ -11,8 +11,6 @@ def solve(a, m, k):
     """
     Solve simple linear conguruence equation
     Find the least x such that ax=k (mod m)
-    if allow_zero=True 2x%3=0, x=0
-    if allow_zero=False 2x%3=0, x=3
     """
 
     if a == 0:
@@ -89,8 +87,8 @@ def decode(code, P, is_coprime=False):
         a = P[-i - 1]
 
         distance = (c - k) % a
+        lcm = lcm * P[-i] if is_coprime else getLCM(lcm, P[-i])
         if distance > 0:
-            lcm = lcm * P[-i] if is_coprime else getLCM(lcm, P[-i])
             x = solve(a=lcm % a, m=a, k=distance)
             k = k + x * lcm
 
