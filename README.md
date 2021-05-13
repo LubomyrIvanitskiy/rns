@@ -1,4 +1,4 @@
-# Residual Number System Conversion (Python)
+# Residual Number System Conversion with co-prime and non-coprime moduli sets (Python)
 
 Given and integer number <b>X</b>, and a set of RNS moduli <img src="https://render.githubusercontent.com/render/math?math=P = {p_1, p_2, .., p_n}"> its RNS representation will be <img src="https://render.githubusercontent.com/render/math?math={x_1, x_2, ... x_n}"> where <img src="https://render.githubusercontent.com/render/math?math=x_i = X_i \mod p_i"> 
 
