@@ -22,8 +22,8 @@ https://www.researchgate.net/publication/307174628_An_overview_of_Residue_Number
 # Evaluation
 Converting first 500 000 numbers forth and back (moduli = [3, 5, 11, 19, 23, 29]) :
 
-Current Method: 3.15718150138855 sec
-Chinese Reminder Theorem: 5.739054918289185 sec
+- <b>Current Method: 3.15718150138855 sec </b>
+- Chinese Reminder Theorem: 5.739054918289185 sec
 # Usage
 
 ```
