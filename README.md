@@ -18,6 +18,12 @@ This algorithm is not yet documented, but it's in my TODO
 More about RNS:
 https://www.researchgate.net/publication/307174628_An_overview_of_Residue_Number_System
 
+
+# Evaluation
+Converting first 500 000 numbers forth and back (moduli = [3, 5, 11, 19, 23, 29]) :
+
+- <b>Current Method: 3.15718150138855 sec </b>
+- Chinese Reminder Theorem: 5.739054918289185 sec
 # Usage
 
 ```
