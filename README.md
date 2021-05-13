@@ -10,7 +10,7 @@ The most popular methods are:
 
 Details can be found : https://www.semanticscholar.org/paper/The-Mixed-Radix-Chinese-Remainder-Theorem-and-Its-Bi-Gross/df77e4473f80fc9f9f7765f10d94df3328e58ccd
 
-However, this repo suggest an alternative recursion-based way of making RNS-Decimal convertion that works efficently for any given 'moduli' without any requirements to be co-prime.
+However, this repo suggest an alternative recursion-based way of making RNS-Decimal convertion that works efficently <b>for any given 'moduli' without any requirements to be co-prime.</b>
 Also it doesn't require the multiplicative inverse to exist
 
 This algorithm is not yet documented, but it's in my TODO
